@@ -1,0 +1,52 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: "Development and Access to Information"
+description: "Access to information (A2I) is not an end in itself, but rather a driver of progress across the board. It empowers people and communities, laying the foundations for equality, sustainability, and prosperity. It provides a clear illustration of the rights-based, holistic approach to development taken in the 2030 Agenda."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "/" #important: start with /
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  # primary: "#e81e25"
+  # primary_rgb: "232, 30, 37"  #rgb of the primary. Needed in some places for the transparency effect.
+  # secondary: "#ededee"
+  link: "#01b2fe"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+# Making projects separate from posts
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  questions:
+    output: true
+    permalink: /questions/:title/
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: twitter
+    url: https://twitter.com/taschagroup
+  - title: medium
+    url: https://medium.com/
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - Technology and Social Change Group
+    - The Information School
+    - University of Washington
+    - Bloedel Hall 060
+    - Seattle, WA 98195
+email: tascha@uw.edu
+tel: +1 (206) 616-9101
+
+
