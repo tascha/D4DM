@@ -88,7 +88,7 @@ hr {
   color: rgba(0,0,0,.5);
 }
 
-.summary, li {
+.summary {
   color: #D3627F;
   border-left: solid 2px #EF9AB6;
   background: #fae6ea;
@@ -97,6 +97,10 @@ hr {
   line-height: 145%;
   padding: 20px ;
   font-style: italic;
+}
+
+.summary li {
+  list-style-type: circle; 
 }
 
 blockquote {
