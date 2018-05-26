@@ -408,7 +408,7 @@ figure img {
 }
 
 .agenda-navigation li.selected a {
-  color: rgba(255,255,255,1);
+  color: rgb(51, 51, 51);
 }
 
 .agenda-navigation li:after {
