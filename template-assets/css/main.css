@@ -99,6 +99,16 @@ hr {
   font-style: italic;
 }
 
+.summary h4 {
+  color: #D3627F;
+  margin: 40px 0 15px 0;
+  font-size: 20px;
+}
+
+.summary ul {
+  list-style-type: circle;
+}
+
 blockquote {
   color: #D3627F;
   border-left: solid 2px #EF9AB6;
