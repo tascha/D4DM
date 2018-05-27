@@ -390,7 +390,7 @@ figure img {
   display: block;
   font-size: 14px;
   text-decoration: none;
-  color: white;
+  color: rgb(51, 51, 51);
   transition: background .1s ease-out;
 }
 
@@ -419,7 +419,7 @@ figure img {
   pointer-events: none;
   position: absolute;
   text-align: center;
-  color: white;
+  color: rgb(51, 51, 51);
   font-size: 16px;
   border: solid 2px rgba(255,255,255,.25);
   color: rgba(255,255,255,.5);
