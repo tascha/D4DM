@@ -354,6 +354,12 @@ figcaption {
   background-repeat: no-repeat;
 }
 
+.downloads-box a:hover {
+  text-decoration: underline;
+  color: #001a66;
+  background: none;
+}
+
 .agenda .time {
   margin: 0 0 25px 0;
 }
