@@ -355,7 +355,7 @@ figcaption {
   background-repeat: no-repeat;
 }
 
-a.downloads-box:link {
+#downloads-box a:link {
   text-decoration: underline;
   color: #001a66;
   background: none;
