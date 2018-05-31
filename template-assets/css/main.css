@@ -341,6 +341,19 @@ figcaption {
   background-repeat: no-repeat;
 }
 
+.download-box {
+  color:#1a53ff;
+  background: #b3c6ff;
+  border-radius: 2px;
+  margin: 14px 0 0 0;
+  display: inline-block;
+  border-width: 0 0 0 2px;
+  padding: 8px 13px 8px 34px;
+  background-size: 18px;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+
 .agenda .time {
   margin: 0 0 25px 0;
 }
