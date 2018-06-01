@@ -635,9 +635,9 @@ ul.fancy {
 }
 
 .activity-menu {
-  border-bottom: solid 1px rgba(0,0,0,.05);
-  background: rgba(0,0,0,.05);
-  color: rgba(0,0,0,.5);
+  border-bottom: solid 1px rgba(0,0,0,0);
+  background: #C92751;
+  color: white;
   top: -30px;
   left: -50px;
   width: 100%;
