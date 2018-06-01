@@ -690,7 +690,7 @@ ul.fancy {
 }
 
 .activity-menu li {
-  color: rgba(0,0,0,.4);
+  color: white;
   padding: 10px 0px;
   border-bottom: solid 1px rgba(0,0,0,.1);
   position: relative;
@@ -706,6 +706,11 @@ ul.fancy {
 .activity-menu li:last-child {
   border-bottom: none;
 }
+
+.activity-menu li> a {
+  color: white;
+
+  }
 
 .activity-menu li.current > a {
   font-weight: bold;
