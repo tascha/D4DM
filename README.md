@@ -1,2 +1,2 @@
-# Mozilla Curriculum Repo
-Open repo for Web Literacy curriculum content and templates.
+# Data for Decisions Curriculum Repo
+Open repo for Data for Decisions curriculum content and templates.
