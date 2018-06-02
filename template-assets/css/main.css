@@ -83,6 +83,14 @@ hr {
   color: rgba(0,0,0,.3);
 }
 
+
+[mode="step"] .activity-title a {
+  color: inherit;
+  text-decoration: none;
+  cursor: text;
+}
+
+}
 .made-by {
   margin: 8px 0 5px 0;
   color: rgba(0,0,0,.5);
