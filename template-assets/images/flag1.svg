@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -6,13 +8,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 210 297"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
    height="297mm"
-   width="210mm">
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="flag1.svg">
   <defs
      id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3200"
+     inkscape:window-height="1675"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -26,12 +50,13 @@
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
      id="layer1">
     <image
-       width="46.831249"
-       height="62.970833"
-       preserveAspectRatio="none"
-       style="image-rendering:optimizeSpeed"
+       y="3.1990986"
+       x="8.1075888"
+       id="image3721"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAADuCAYAAAB28ebnAAAABHNCSVQICAgIfAhkiAAACAFJREFU
 eJzt3S1wW9kBR/ETzQIXrZaZraHZmtWsLqphWAMDAwMDly0M3ClKWaBnUabICUqKnKKEWYucIqek
 CcuCK+XTlt+XdN9fOr+ZO87OSvK138nzfVeycovNcwjsXPP/ZvOhDXKr9gR6OJqPH4E9YB/YbXH/
@@ -71,8 +96,9 @@ SrOAL2tNULrK568nbrqkcCmhUfk84v80vM+LVUxEGsIuzZYTx7UmKDVxxvKA3wE71WYnXeHr37H7
 7YbbP8VfS9LIHbD8THy73tSk5k64OuCzmpOS2jigrH29oFO0I+CCT09u3Kk6G2mJPwAlUb1wOJYG
 TwAAAABJRU5ErkJggg==
 "
-       id="image3721"
-       x="71.078423"
-       y="53.091957" />
+       style="image-rendering:optimizeSpeed"
+       preserveAspectRatio="none"
+       height="293.53632"
+       width="196.50983" />
   </g>
 </svg>
