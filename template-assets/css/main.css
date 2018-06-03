@@ -658,6 +658,10 @@ ul.fancy {
   font-size: 18px;
 }
 
+.download {
+  float:right;
+}
+
 .activity-menu .toggle {
   display: block;
   cursor: pointer;
