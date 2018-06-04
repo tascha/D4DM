@@ -685,6 +685,7 @@ ul.fancy {
   height: 16px;
   width: 16px;
   background: url(../images/down-angle.svg) no-repeat right;
+  color: white;
   opacity: .4;
   background-size: 16px;
   position: relative;
