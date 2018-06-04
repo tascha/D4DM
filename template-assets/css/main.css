@@ -731,6 +731,9 @@ ul.fancy {
 
 }
 
+.header-links a{
+  color:white;
+}
 .activity-menu li.current > a {
   font-weight: bold;
 }
