@@ -665,7 +665,7 @@ ul.fancy {
   color: white;
   padding: 14px 0 12px 20px;
   /*width: 50%;*/
-  padding-right: 40px;
+  padding-right: 115px;
   opacity: 1;
   transition: padding .15s ease-out;
 }
@@ -735,7 +735,7 @@ ul.fancy {
 
 .header-links a{
   color:white;
-  padding: 10px 14px 7px 24px;
+  padding: 10px 0px 7px 19px;
 }
 .activity-menu li.current > a {
   font-weight: bold;
