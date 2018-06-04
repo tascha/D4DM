@@ -660,7 +660,7 @@ ul.fancy {
 
 
 .activity-menu .toggle {
-  /*display: block;*/
+  display: block;
   cursor: pointer;
   color: white;
   padding: 12px 0 12px 20px;
