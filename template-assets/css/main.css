@@ -658,12 +658,9 @@ ul.fancy {
   font-size: 18px;
 }
 
-.download {
-  float:right;
-}
 
 .activity-menu .toggle {
-  display: block;
+  /*display: block;*/
   cursor: pointer;
   color: white;
   padding: 12px 0 12px 20px;
