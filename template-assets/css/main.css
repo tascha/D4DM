@@ -735,6 +735,7 @@ ul.fancy {
 
 .header-links a{
   color:white;
+  padding: 10px 14px 7px 24px;
 }
 .activity-menu li.current > a {
   font-weight: bold;
