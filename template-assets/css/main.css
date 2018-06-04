@@ -664,7 +664,7 @@ ul.fancy {
   cursor: pointer;
   color: white;
   padding: 14px 0 12px 20px;
-  width: 50%;
+  /*width: 50%;*/
   padding-right: 40px;
   opacity: 1;
   transition: padding .15s ease-out;
