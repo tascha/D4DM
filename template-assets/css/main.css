@@ -467,7 +467,7 @@ figure img {
 .agenda-navigation li:nth-child(1):after {
   content: "";
   height: 22px;
-  width: 22px;
+  width: 28px;
   left: 27px;
   top: 17px;
   position: absolute;
@@ -665,7 +665,7 @@ ul.fancy {
   color: white;
   padding: 14px 0 12px 10px;
   /*width: 50%;*/
-  padding-right: 115px;
+  padding-right: 130px;
   opacity: 1;
   transition: padding .15s ease-out;
 }
