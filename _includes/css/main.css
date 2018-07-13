@@ -189,7 +189,12 @@ a:focus {
 .btn2-theme:hover,
 .btn2-theme:focus,
 .btn2-theme:active,
-.btn2-theme.active
+.btn2-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #fff;
+  background-color: #e81e25;
+  border-color: #e81e25;
+}
 
 .dmbutton:hover,
 .dmbutton:active,
