@@ -95,8 +95,8 @@ to Your Organization, Part 2</a></li>
             <li><a href="../D4DM/documents/Mod4_Images.doc">Printout of images used</a></li>
             <li><a href="http://tascha.github.io/D4DM/documents/Activity_4.1.doc">Activity packet 4.1</a></li> 
             <li><a href="../D4DM/documents/Acivity_4.2.doc">Activity packet 4.2</a></li>
-            <li><a href="../D4DM/documents/StudentHandbook_Module1.doc">Student handbook</a></li>
-            <li><a href="../D4DM/documents/Module1_DataforDemocracy.ppt">Instructor Powerpoint slides</a></li>
+            <li><a href="../D4DM/documents/StudentHandbook_Module4.doc">Student handbook</a></li>
+            <li><a href="../D4DM/documents/Module4_DataforDemocracy.ppt">Instructor Powerpoint slides</a></li>
             <li>Myanmar election data</li> 
             <li>Sample data and metadata from <a href="aiddata.org">aiddata.org</a></li>
             <li>Visualization print outs from <a href="http://paldhous.github.io/ucb/2016/dataviz/week2.html">http://paldhous.github.io/ucb/2016/dataviz/week2.html</a></li>
@@ -298,27 +298,100 @@ to Your Organization, Part 2</a></li>
             <ul>
               <li>Understand the importance of cleaning and coding data for analysis</li> 
               <li>Learn how to identify when data need to be cleaned or coded</li> 
-              <li>Think critically about how to ask the right questions, collect the right data, and how that data can inform the decisions you make at your organization.</li> 
+              <li>Learn how to effectively code your data for analysis</li> 
             </ul>
 
             <p><b>Materials Needed:</b></p>
+            <p><i>If participants have computers:</i></p>
             <ul>
-              <li>Problem definition tool from UNDP, A Guide to Data Innovation for Development (2016)</li>
-              <li>Pencils</li>
+              <li>Laptops</li>
+              <li>Excel</li>
+              <li>Excel file for cleaning and coding</li>
+              <li>Methods sheet for coding</li>
+            </ul>
+            <p><i>If participants do not have computers:</i></p>
+            <ul>
+              <li>Printout of dataset worksheet</li>
+              <li>Directions</li>
+              <li>Codesheet</li>
+              <li>Pens or pencils</li>
             </ul>
 
             <p><b>Introduction:</b> (Use the following information to introduce and explain the activity to the class)</p>
 
-            <p>A key piece of using data for decision making is learning how to specify how you would like to use your data as evidence, and what questions you would like to ask your data in order to generate that evidence. This begins with being able to define a problem or need in your organization.</p>
+            <p>Remind the class that in order for data to be used effectively for analysis and decision making, the data need to be properly cleaned and often recoded. Cleaning the data ensures that the data are standardized and readable by the software. This often entails checking for standardization between different returns, spelling errors, and capitalization. Coding data allows us to condense returns into categories or patterns that are more beneficial to decision making analysis or for communicating to an intended audience. Coding is particularly useful when data collection methods are open ended (i.e. demographic data questionnaires for occupation or education). Cleaning and coding are particularly important when visualizing data.</p>
+            <p><h2>Example of the Importance of Cleaning</h2></p>
+            <p>Pass around this image, or show it on the screen:</p> 
+            <p><img src="http://tascha.github.io/D4DM/images/excel1.jpg" alt="spreadsheet messy data" width="100%"></p> 
 
-            <p>Defining a problem or challenge that you wish to solve using data can help you space time and resources while you maximize your project returns. With a clearly defined problem, you can build your own capacity to collect only the data that you need to answer your own questions.</p> 
+            <p>Ask the participants to look at the column labeled “State or Region” and ask them if they can identify any problems. Only allow up to one minute. If the participants do not answer or do not answer correctly, point out that some returns are labeled “yangon” or “Mon” while others are labeled “Yangon Region” or “Mon State.” Show them the same dataset, but visualized, to show what happens when you visualize data that are not cleaned:</p> 
+            <p><img src="http://tascha.github.io/D4DM/images/tableau1.jpg" alt="barchart" width="100%"></p>
 
-            <p>The Problem definition tool can help identify the key challenge you are trying to address, and to being thinking about what data already exist on the issue. The tool will push you to think specifically about how better measurement or more complete information can help solve the problem. What new decisions will be made? What responses can be faster?</p> 
+            <p>Allow the class 30 seconds to answer this question: Why is this visual problematic? They should answer that there are separate columns in the visual for the same state or region because the labels are different in the dataset.</p>
+    <p>Now show the class the dataset after it has been re-coded:</p>
+    <p><img src="http://tascha.github.io/D4DM/images/excel2.jpg" alt="spreadsheet clean data" width="100%"></p>
+                    <figcaption>This dataset is taken from the working data files of the demographic data of elected MPs in Myanmar’s State and Region Parliaments. This was part of a project between the Enlightened Myanmar Research Foundation, the University of Washington, and Tableau Foundation in 2016.</figcaption>
+                    </figure>
 
-            <p>As you complete the problem definition tool, you should ask yourself what data you already have surround the problem. You should also think how you can find any existing data about previous projects in the same problem area or around similar data sources. This can spark new ideas for potential data sources for potential data sources for a solution.</p> 
+            <p>Explain to them that the new column is usually added at the end of the original database. The spelling and capitalization is the same for each return and the names for returns are standardized (for example, returns for Magway are re-coded as Magway Region and returns for shan are returned as Shan State).</p>
+            <p>Show them the same dataset visualized for the cleaned data:</p>
+            <p><img src="http://tascha.github.io/D4DM/images/tableau2.jpg" alt="barchart" width="100%"></p>
+            <p><h2>Example of the Importance of Re-coding</h2></p>
+            <p>Pass around the image, or show it on the screen:</p>
+            <p><img src="http://tascha.github.io/D4DM/images/excel3.jpg" alt="spreadsheet" width="100%"></p>
+            <p>Ask the participants to look at Column A (Education). Inform them that these data were compiled from an open-ended response to “education” on a form for parliamentary candidates in Myanmar. Because individuals were not provided with a closed list of options to choose from, we can see that there are many different responses.</p>
+            <p>Show the participants this visual, which is the data in column A in visual format:</p>
+            <p><img src="http://tascha.github.io/D4DM/images/tableau3.jpg" alt="vertical barchart" width="100%"></p>
+            <p>Explain to the participants that this does not easily tell us the educational attainment of the individuals. When there are many categories with few returns (in this case, one or two returns), the data should be recoded.</p>
+            <p>Return to the previous image of the dataset. Ask participants to look at Column C, which shows the data recoded into the highest level of education completed. In re-coding the data, all degrees considered to be bachelor’s degrees were re-coded as “Bachelor.” Master’s degrees were re-coded as “Master.” Individuals who began university study but did not or have not yet completed a bachelor’s degree were recoded into the category “Some University.” High School completion and middle school completion were recoded into “B.E.H.S. and B.E.M.S. respectively. M.B.B.S., medical bachelor’s degree, remained as it was in the original dataset.</p>
+            <p>Now show the participants the recoded education data in visual format:</p>
+            <p><img src="http://tascha.github.io/D4DM/images/tableau4.jpg" alt="vertical barchart" width="100%"></p>
+            <p>Ask them which visual provides more information about the educational attainment of the individuals? They should answer the second visual (recoded data). </p>
+            <p>Now break the participants into groups of 2-3. They will be given a dataset with data that need to be cleaned and coded. If participants are using computer, provide them with the excel file. If they are not using computers, provide them the paper copy of the excel file included in this activity. They will also be provided with a directions sheet and a codesheet that provides them with the categories and methods to be used to recode the data for each indicator. If the class is more advanced, only provide them with the directions and make them create their own codesheet for re-coding the data. Working together, they should do the following:</p>
+             <ul>
+               <li>Clean the “State or Region” data so that they are standardized, spelled correctly, and capitalized the same.</li>
+               <li>Recode the “Occupation” data:</li>
+               <ul>
+                 <li>Recode the occupations by sector. The sectors that participants should use are provided on the codesheet. For example, farmers and individuals who work with livestock should be re-coded as “Agriculture.” Teachers and headmasters should be re-coded as “Education.”</li>
+               </ul>
+               <li>Recode the “Education” data two different ways:</li>
+               <ul>
+                 <li>First, by completed education (middle school, high school, some university, bachelor, master, Ph.D.). For example, B.A., B.Sc., L.L.B., and B.Ed. will all be classified as “bachelor”</li>
+                 <li>Second, by the highest education completed using four categories represented by numeric returns (0 = below bachelor; 1 = bachelor; 2 = above bachelor’s.) For example, B.E.M.S. and B.E.H.S. will be coded with a 0 because these education levels are below bachelor’s degrees. A Master’s degree and a Ph.D. will be coded with a 2, since they are degrees higher than a Bachelor’s degree.</li>
+               </ul>
+              </ul>
+              <p>Walk around the room and provide participants with help as needed. Refer to the cheat sheet if needed. </p>
+              <p>At the end, provide each group with a cheat sheet, or put it up on the screen and allow them a maximum of 5 minutes to check their responses. Ask participants if they are confused or have any questions.</p>
+              <p>Last, ask the participants these questions:</p>
+              <ul>
+                <li>What was challenging?</li>
+                <li>Why is cleaning and coding the data important?</li>
+              </ul>
+              <p><img src="http://tascha.github.io/D4DM/images/excel4.jpg" alt="spreadsheet" width="100%"></p>
+              <p><h2>Directions</h2></p>
+              <ol>
+                <li>Please clean the data returns for “State or Region” (column B). You should provide the new cleaned data in Column E, “StateRegion_Recode.”</li>
+                <ol>
+                  <li>You should include the label “State” or “Region” following the name of the administrative territory. For example, Yangon Region or Shan State</li>
+                  <li>There should be a space between the territory name and the label State or Region and both should be capitalized. For example, Magway Region. Do not write magway region or MagwayRegion.</li>
+                  <li>See “Coding State and Region Data” for the comprehensive list of labels you should use for the re=coded column</li>
+                </ol>
+                <li>Please recode the Occupation data. The original occupation returns are provided in column C.</li>
+                <ol>
+                  <li>Recode these by sector in Column F. A sector is a distinct part of society. In a state, key sectors are usually represented by a ministry or department. For a comprehensive list of sectors to use for re-coding and to decide which occupations should be recoded into the given sectors, refer to “Coding Occupation Sectors.”</li>
+                  <li>Please make sure that all re-coded returns (Column F) are capitalized and spelled correctly.</li>
+                </ol>
+                <li>Please recode the Education data. The original education data are provided in Column D. </li>
+                <ol>
+                  <li>First, recode these data by education completed in Column G. The following categories should be used: Middle School, High School, Some University, Bachelor, Master, Ph.D. “Some University” refers to individuals who started a university degree but have not completed a bachelor’s degree. Please refer to “Coding Education Completed” to help you identify which returns should be re-coded under the new categories.</li>
+                  <li>Second, recode the data numerically to represent the highest educational level obtained in Column H. This return is intended to show who has not obtained a university degree (below bachelor), who has obtained a bachelor’s degree, and who has obtained a higher degree (master’s degree or Ph.D.). Please use the following numbers: 0 = below bachelor’s degree; 1 = bachelor’s degree; 2 = above bachelor’s degree. Please refer to “Numeric Coding for Highest Education Obtained” for a detailed explanation of which returns should be re-coded with each number.</li>
+                </ol>
+              </ol>
+<p><h2>Codesheet</h2></p>
+<p><i>Coding State and Region Data</i></p>
+                
 
-            <p>Before having the participants begin, ask them to think critically about an issue they have in their organization. Then, have the participants work through the problem definition tool provided on the next page (20 mins).</p>
-
+          
             <p><b>Participant Guide: Problem Definition Tool</b></p> 
 
             <p>Directions: Use this guide to help you think through a key issue you are trying to address, the factors that contribute to that issue, the people it affects, existing data surrounding the issue, potential sources of new data, and how to use those data to make a decision.</p>
