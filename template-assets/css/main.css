@@ -466,10 +466,10 @@ figure img {
 
 .agenda-navigation li:nth-child(1):after {
   content: "";
-  height: 22px;
-  width: 28px;
-  left: 27px;
-  top: 17px;
+  height: 18px;
+  width: 22px;
+  left: 20px;
+  top: 15px;
   position: absolute;
   border: none;
   border-radius: 0;
