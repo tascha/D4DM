@@ -479,7 +479,7 @@ figure img {
   background-repeat: no-repeat;
   opacity: 5;
   padding: 0;
-  color: rgba(255,255,255,1);
+  color: rgba(51,51,51,1);
 }
 
 .agenda-navigation li.selected:nth-child(1):after {
