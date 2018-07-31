@@ -363,7 +363,7 @@ figcaption {
   background-repeat: no-repeat;
 }
 
-a.download-box {
+download-box a {
   text-decoration: underline;
   color: #0d4a59;
   background: none;
