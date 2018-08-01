@@ -451,7 +451,7 @@ figure img {
   text-align: center;
   color: #333333;
   font-size: 12px;
-  border: solid 1px rgba(51,51,51);
+  border: solid 2px #333333;
   color: #333333;
   border-radius: 30%;
   width: 22px;
@@ -459,6 +459,7 @@ figure img {
   left: 14px;
   padding: 5px 0;
   top: 5px;
+  bottom: 5px;
 }
 
 .agenda-navigation li.selected:after {
