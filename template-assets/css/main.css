@@ -336,8 +336,10 @@ figcaption {
 }
 
 .time {
-  color:#4b6020;
-  background: #97BF41;
+  color:#146e85;
+  background: none;
+  border-style: solid;
+  border-color: #38bfe1;
   border-radius: 2px;
   margin: 14px 0 0 0;
   display: inline-block;
