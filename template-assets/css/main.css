@@ -473,14 +473,14 @@ figure img {
   left: 16px;
   top: 11px;
   position: absolute;
-  border: 2px;
+  border: none;
   border-radius: 0;
   background-image: url(../images/flag.svg);
   background-size: 22px;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 5;
-  padding: 0;
+  padding: 1px 0;
   fill: rgba(51,51,51,1);
 }
 
