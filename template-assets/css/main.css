@@ -97,13 +97,11 @@ hr {
 }
 
 .summary {
-  color: #D3627F;
-  border-left: solid 2px #EF9AB6;
-  background: #fae6ea;
-  margin: 25px 0 35px 0;
+  color: #146e85;
+  border-left: solid 2px #146e85;
+  background: #38bfe1;
   font-size: 18px;
-  line-height: 145%;
-  padding: 20px ;
+  padding: 15px ;
   font-style: italic;
 }
 
