@@ -413,6 +413,7 @@ figure img {
 
 .agenda-navigation li {
   position: relative;
+  margin: 2px;
 }
 
 .agenda-navigation li a {
