@@ -451,10 +451,9 @@ figure img {
   color: #333333;
   font-size: 12px;
   border: solid 2px #333333;
-  color: #333333;
   border-radius: 30%;
+  margin: 2px;
   width: 22px;
-  top: calc(50% - 15px);
   left: 14px;
   padding: 5px 0;
   top: 5px;
