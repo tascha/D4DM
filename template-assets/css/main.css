@@ -336,14 +336,13 @@ figcaption {
 }
 
 .time {
-  color:#146e85;
+  color:#39275b;
   background: none;
   border-style: solid;
-  border-color: #38bfe1;
+  border-color: #39275b;
   border-radius: 2px;
   margin: 14px 0 0 0;
   display: inline-block;
-  border-width: 0 0 0 2px;
   padding: 8px 13px 8px 34px;
   background-image: url(../images/clock.svg);
   background-size: 18px;
@@ -354,6 +353,8 @@ figcaption {
 .download-box {
   color:#146e85;
   background: #38bfe1;
+  border-style: solid;
+  border-color: #38bfe1;
   border-radius: 2px;
   margin: 14px 0 0 0;
   display: inline-block;
