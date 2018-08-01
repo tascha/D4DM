@@ -450,14 +450,14 @@ figure img {
   pointer-events: none;
   position: absolute;
   text-align: center;
-  color: #333333;
-  font-size: 12px;
-  border: solid 2px #333333;
+  color: #39275b;
+  font-size: 14px;
+  border: solid 2px #39275b;
   border-radius: 30%;
   margin: 2px;
   width: 22px;
   left: 14px;
-  padding: 5px 0;
+  padding: 4px 0;
   top: 5px;
 }
 
