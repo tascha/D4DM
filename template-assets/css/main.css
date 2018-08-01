@@ -97,8 +97,8 @@ hr {
 }
 
 .summary {
-  color: #146e85;
-  border-left: solid 2px #146e85;
+  color: #ffffff;
+  border-left: solid 2px #17819b;
   background: #38bfe1;
   font-size: 18px;
   padding: 15px ;
@@ -365,7 +365,7 @@ figcaption {
 
 .download-box a {
   text-decoration: underline;
-  color: #0d4a59;
+  color: #1ea6c8;
   background: none;
 }
 
