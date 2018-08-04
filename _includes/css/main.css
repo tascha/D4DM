@@ -186,11 +186,20 @@ a:focus {
   border-color: black;
   margin: 4px;
 }
-@media all and (max-width:30em){
- .button2-theme{
-  display:block;
-  margin:0.4em auto;
- }
+@media (max-width: 768px) {
+  .btn2-theme {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn2-theme {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }
 }
 .btn2-theme:hover,
 .btn2-theme:focus,
