@@ -186,6 +186,12 @@ a:focus {
   border-color: black;
   margin: 4px;
 }
+@media all and (max-width:30em){
+ .button2-theme{
+  display:block;
+  margin:0.4em auto;
+ }
+}
 .btn2-theme:hover,
 .btn2-theme:focus,
 .btn2-theme:active,
