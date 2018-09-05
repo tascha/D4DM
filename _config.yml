@@ -6,6 +6,10 @@ description: "Access to information (A2I) is not an end in itself, but rather a 
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
 
+# Google Analytics
+google_analytics: UA-125335750-1
+
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
