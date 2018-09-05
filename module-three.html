@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://tascha.github.io/D4DM/template-assets/css/style.css">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://tascha.github.io/D4DM/template-assets/js/template.js" type="text/javascript" charset="utf-8"></script>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
+
   </head>
   <body>
     <div class="wrapper" mode="overview">
