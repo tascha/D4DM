@@ -349,10 +349,10 @@ figcaption {
 }
 
 .download-box {
-  color:#38bfe1;
+  color:#5c97bf;
   background: none;
   border-style: solid;
-  border-color: #38bfe1;
+  border-color: #5c97bf;
   border-radius: 2px;
   margin: 14px 0 0 0;
   display: inline-block;
@@ -365,7 +365,7 @@ figcaption {
 
 .download-box a {
   text-decoration: underline;
-  color: #1ea6c8;
+  color: #5c97bf;
   background: none;
 }
 
