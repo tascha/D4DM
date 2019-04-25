@@ -30,7 +30,7 @@ body {
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	color: #34b9db;
+	color: #5c97bf;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 }
@@ -167,8 +167,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #e81e25;
-  border-color: #e81e25;
+  background-color: #5c97bf;
+  border-color: #5c97bf;
 }
 
 .btn2-theme {
