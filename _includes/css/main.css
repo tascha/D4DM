@@ -122,21 +122,21 @@ a:focus {
 }
 
 .navbar-header .navbar-brand {
-	color: white;
+	color: #f2f1e8;
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	color: #f2f1e8;
 	font-weight: 700;
 	font-size: 12px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #e81e25;
+	color: #205d86;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #e81e25;
+	color: #205d86;
 	background-color: transparent;
 }
 
